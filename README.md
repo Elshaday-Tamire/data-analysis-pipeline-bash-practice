@@ -24,22 +24,23 @@ Activate the conda environment:
 conda activate da-pipeline-sh
 ```
 
-Run the anaysis and generate the report:
+Run the anaysis and generate the report using bash:
 
 ```
 bash runall.sh
 ``````
 
-
-### Exercise:
-
-Your task is to add a data analysis pipeline using a shell/bash script!
-It should accomplish the same task as outlined in the README.md file when you type:
+Run the anaysis and generate the report using make:
 
 ```
-bash runall.sh
-```
+make all
+``````
 
+clean generated files to rerun again:
+
+```
+make clean
+``````
 ### Depenedencies
 - Quarto
 - Python & Python libraries:
