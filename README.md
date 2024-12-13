@@ -36,7 +36,7 @@ Run the anaysis and generate the report using make:
 make all
 ``````
 
-clean generated files to rerun again:
+clean generated files to run again:
 
 ```
 make clean
